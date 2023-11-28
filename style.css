@@ -1,4 +1,8 @@
 
-div{
-    margin-left: 50%;
+.row{
+    margin-left: 42%;
+}
+div.display{
+    display: inline;
+    margin-left: 40%;
 }
