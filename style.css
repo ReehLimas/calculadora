@@ -1,8 +1,35 @@
 
 .row{
     margin-left: 42%;
+    padding: 0;
+
 }
 div.display{
     display: inline;
     margin-left: 40%;
+}
+.button-gray{
+    background-color: rgb(43, 151, 43);
+}
+.container{
+    margin-left: 42%;
+    
+}
+.button-purple{
+    margin-right: 4px;
+    background-color: blueviolet;
+    width: 30px;
+    height: 30px;
+}
+div{
+    display: flex;
+
+}
+.button{
+    width: 30px;
+}
+.button-espaco{
+    padding-left: 30px;
+    background-color: rgb(40, 154, 40);
+    
 }
