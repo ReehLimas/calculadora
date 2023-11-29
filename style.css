@@ -11,9 +11,7 @@ div.display{
     display: flex;
 
 }
-.button-gray{
-    background-color: rgb(43, 151, 43);
-}
+
 .container{
     margin: auto;
     display: block;
