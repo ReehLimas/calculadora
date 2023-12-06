@@ -10,7 +10,7 @@ function calculate(){
 document.addEventListener('keydown', function(event){
     const verifica = /^[0-9]$/;
     if(verifica.test(event.key)){
-        valor(event)
+        valor(event.key)
 }
     if((event.key == 'Enter') ){
         calculate();
