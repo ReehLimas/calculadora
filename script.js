@@ -7,3 +7,12 @@ function valor(value){
 function calculate(){
     document.getElementById('display').value = eval(document.getElementById('display').value);
 }
+document.addEventListener('keydown', function(event){
+    const verifica = /^[0-9]$/;
+    if(verifica.test(event.key)){
+        valor(event)
+}
+    if((event.key == 'Enter') ){
+        calculate();
+    }
+})
